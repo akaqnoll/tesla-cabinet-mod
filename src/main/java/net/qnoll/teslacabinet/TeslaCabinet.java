@@ -2,6 +2,7 @@ package net.qnoll.teslacabinet;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -12,6 +13,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.qnoll.teslacabinet.block.ModBlocks;
+import net.qnoll.teslacabinet.item.ModCreativeModTabs;
+import net.qnoll.teslacabinet.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -25,6 +29,11 @@ public class TeslaCabinet {
     public TeslaCabinet(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
+        //register with eventbus
+        ModCreativeModTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -35,6 +44,9 @@ public class TeslaCabinet {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.PLACEHOLDER);
+        }
     }
 
 

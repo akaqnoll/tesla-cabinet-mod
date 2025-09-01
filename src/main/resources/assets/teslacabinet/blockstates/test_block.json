@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "teslacabinet:block/test_block"
+    }
+  }
+}
