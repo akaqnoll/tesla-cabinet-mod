@@ -1,5 +1,6 @@
 package net.qnoll.teslacabinet.block;
 
+import net.minecraft.client.resources.model.Material;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -10,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.qnoll.teslacabinet.TeslaCabinet;
+import net.qnoll.teslacabinet.block.custom.FacingBlock;
 import net.qnoll.teslacabinet.item.ModItems;
 
 import java.util.function.Supplier;
@@ -20,7 +22,7 @@ public class ModBlocks {
 
     //blocks start
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+            () -> new FacingBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     //blocks end
 
