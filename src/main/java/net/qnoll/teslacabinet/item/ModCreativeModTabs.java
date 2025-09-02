@@ -20,10 +20,14 @@ public class ModCreativeModTabs {
                     .icon(() -> new ItemStack(ModItems.PLACEHOLDER.get()))
                     .title(Component.translatable("creativetab.teslacabinet_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-
-                        //mod items order:
-                        output.accept(ModItems.PLACEHOLDER.get());
+                        //### BLOCKS:
+                        //x-meters (with arrow)
                         output.accept(ModBlocks.THERMOCOUPLE.get());
+                        //Shelves:
+                        output.accept(ModBlocks.SPRUCE_SHELF_INDENTED.get());
+
+                        //### ITEMS:
+                        output.accept(ModItems.PLACEHOLDER.get());
                     })
                     .build());
 

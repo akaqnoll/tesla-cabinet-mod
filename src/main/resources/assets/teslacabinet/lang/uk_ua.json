@@ -2,6 +2,7 @@
   "item.teslacabinet.placeholder" : "Placeholder Item *qNoll's Mods*",
 
   "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
+  "block.teslacabinet.spruce_shelf_indented" : "Смерекова полиця з відступом",
 
   "creativetab.teslacabinet_tab" : "Tesla's Cabinet"
 }

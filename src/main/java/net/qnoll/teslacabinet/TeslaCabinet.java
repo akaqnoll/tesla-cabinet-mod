@@ -4,10 +4,8 @@ import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -40,7 +38,6 @@ public class TeslaCabinet {
         modEventBus.addListener(this::clientSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-        //modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -49,13 +46,8 @@ public class TeslaCabinet {
     //Add alpha to textures when transparent (glass, planes, etc.)
     private void clientSetup (final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.THERMOCOUPLE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPRUCE_SHELF_INDENTED.get(), RenderType.cutout());
     }
-
-    /*private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.PLACEHOLDER);
-        }
-    }*/
 
 
     @SubscribeEvent

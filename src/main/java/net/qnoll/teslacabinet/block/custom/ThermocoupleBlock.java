@@ -13,8 +13,6 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-//import net.minecraft.world.phys.shapes.Shapes;
-//import net.minecraft.world.phys.shapes.BooleanOp;
 
 public class ThermocoupleBlock extends HorizontalDirectionalBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
@@ -29,7 +27,6 @@ public class ThermocoupleBlock extends HorizontalDirectionalBlock {
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
         return SHAPE;
     }
-
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {

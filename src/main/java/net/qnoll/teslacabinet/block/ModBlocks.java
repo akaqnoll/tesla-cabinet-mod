@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.qnoll.teslacabinet.TeslaCabinet;
+import net.qnoll.teslacabinet.block.custom.ShelfIndentedBlock;
 import net.qnoll.teslacabinet.block.custom.ThermocoupleBlock;
 import net.qnoll.teslacabinet.item.ModItems;
 
@@ -20,8 +21,13 @@ public class ModBlocks {
         DeferredRegister.create(ForgeRegistries.BLOCKS, TeslaCabinet.MOD_ID);
 
     //blocks start
+
+    //x-meters (with arrow)
     public static final RegistryObject<Block> THERMOCOUPLE = registerBlock("thermocouple",
             () -> new ThermocoupleBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+    //shelves
+    public static final RegistryObject<Block> SPRUCE_SHELF_INDENTED = registerBlock("spruce_shelf_indented",
+            () -> new ShelfIndentedBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
 
     //blocks end
 
