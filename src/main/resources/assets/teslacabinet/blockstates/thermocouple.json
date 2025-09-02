@@ -1,0 +1,19 @@
+{
+  "variants" : {
+    "facing=north" : {
+      "model" : "teslacabinet:block/thermocouple"
+    },
+    "facing=south" : {
+      "model" : "teslacabinet:block/thermocouple",
+      "y" : 180
+    },
+    "facing=west" : {
+      "model" : "teslacabinet:block/thermocouple",
+      "y" : 270
+    },
+    "facing=east" : {
+      "model" : "teslacabinet:block/thermocouple",
+      "y" : 90
+    }
+  }
+}

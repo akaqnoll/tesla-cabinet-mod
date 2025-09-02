@@ -23,7 +23,7 @@ public class ModCreativeModTabs {
 
                         //mod items order:
                         output.accept(ModItems.PLACEHOLDER.get());
-                        output.accept(ModBlocks.TEST_BLOCK.get());
+                        output.accept(ModBlocks.THERMOCOUPLE.get());
                     })
                     .build());
 

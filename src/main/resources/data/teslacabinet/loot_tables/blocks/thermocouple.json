@@ -11,11 +11,11 @@
       "entries" : [
         {
           "type" : "minecraft:item",
-          "name" : "teslacabinet:test_block"
+          "name" : "teslacabinet:thermocouple"
         }
       ],
       "rolls" : 1.0
     }
   ],
-  "random_sequence": "teslacabinet:blocks/test_block"
+  "random_sequence": "teslacabinet:blocks/thermocouple"
 }

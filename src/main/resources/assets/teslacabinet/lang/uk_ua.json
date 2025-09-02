@@ -1,7 +1,7 @@
 {
   "item.teslacabinet.placeholder" : "Placeholder Item *qNoll's Mods*",
 
-  "block.teslacabinet.thermocouple" : "Thermocouple Ampermeter",
+  "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
 
   "creativetab.teslacabinet_tab" : "Tesla's Cabinet"
 }

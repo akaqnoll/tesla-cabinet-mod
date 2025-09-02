@@ -40,7 +40,7 @@ public class TeslaCabinet {
         modEventBus.addListener(this::clientSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::addCreative);
+        //modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -48,14 +48,14 @@ public class TeslaCabinet {
 
     //Add alpha to textures when transparent (glass, planes, etc.)
     private void clientSetup (final FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TEST_BLOCK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.THERMOCOUPLE.get(), RenderType.cutout());
     }
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+    /*private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.PLACEHOLDER);
         }
-    }
+    }*/
 
 
     @SubscribeEvent

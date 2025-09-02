@@ -1,0 +1,26 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "ICI",
+    "IRI",
+    "WWW"
+  ],
+  "key" : {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "C" : {
+      "item" : "minecraft:compass"
+    },
+    "R" :{
+      "item": "minecraft:comparator"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:thermocouple"
+  }
+}
