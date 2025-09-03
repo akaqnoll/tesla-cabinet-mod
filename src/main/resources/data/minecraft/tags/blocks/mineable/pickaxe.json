@@ -1,5 +1,6 @@
 {
   "values" : [
-    "teslacabinet:thermocouple"
+    "teslacabinet:thermocouple",
+    "teslacabinet:static_electricity_dome"
   ]
 }

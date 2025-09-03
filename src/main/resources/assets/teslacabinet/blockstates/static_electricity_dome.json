@@ -1,0 +1,19 @@
+{
+  "variants" : {
+    "facing=north" : {
+      "model" : "teslacabinet:block/static_electricity_dome"
+    },
+    "facing=south" : {
+      "model" : "teslacabinet:block/static_electricity_dome",
+      "y" : 180
+    },
+    "facing=west" : {
+      "model" : "teslacabinet:block/static_electricity_dome",
+      "y" : 270
+    },
+    "facing=east" : {
+      "model" : "teslacabinet:block/static_electricity_dome",
+      "y" : 90
+    }
+  }
+}

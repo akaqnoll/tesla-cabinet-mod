@@ -21,6 +21,8 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.teslacabinet_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //### BLOCKS:
+                        //dome guys
+                        output.accept(ModBlocks.STATIC_ELECTRICITY_DOME.get());
                         //x-meters (with arrow)
                         output.accept(ModBlocks.THERMOCOUPLE.get());
                         //Shelves:

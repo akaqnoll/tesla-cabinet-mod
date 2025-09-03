@@ -1,0 +1,26 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "R#G",
+    "O#O",
+    "SSS"
+  ],
+  "key" : {
+    "R": {
+      "item": "minecraft:redstone_torch"
+    },
+    "G" : {
+      "tag" : "forge:glass_blocks"
+    },
+    "O" :{
+      "tag": "forge:ingots/gold"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:thermocouple"
+  }
+}

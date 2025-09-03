@@ -11,6 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.qnoll.teslacabinet.TeslaCabinet;
 import net.qnoll.teslacabinet.block.custom.ShelfIndentedBlock;
+import net.qnoll.teslacabinet.block.custom.StaticElectricityDomeBlock;
 import net.qnoll.teslacabinet.block.custom.ThermocoupleBlock;
 import net.qnoll.teslacabinet.item.ModItems;
 
@@ -21,6 +22,10 @@ public class ModBlocks {
         DeferredRegister.create(ForgeRegistries.BLOCKS, TeslaCabinet.MOD_ID);
 
     //blocks start
+
+    //glass dome guys
+    public static  final RegistryObject<Block> STATIC_ELECTRICITY_DOME = registerBlock("static_electricity_dome",
+            () -> new StaticElectricityDomeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     //x-meters (with arrow)
     public static final RegistryObject<Block> THERMOCOUPLE = registerBlock("thermocouple",
