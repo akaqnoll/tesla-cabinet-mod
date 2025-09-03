@@ -1,0 +1,19 @@
+{
+  "variants" : {
+    "facing=north" : {
+      "model" : "teslacabinet:block/cherry_shelf_indented"
+    },
+    "facing=south" : {
+      "model" : "teslacabinet:block/cherry_shelf_indented",
+      "y" : 180
+    },
+    "facing=west" : {
+      "model" : "teslacabinet:block/cherry_shelf_indented",
+      "y" : 270
+    },
+    "facing=east" : {
+      "model" : "teslacabinet:block/cherry_shelf_indented",
+      "y" : 90
+    }
+  }
+}

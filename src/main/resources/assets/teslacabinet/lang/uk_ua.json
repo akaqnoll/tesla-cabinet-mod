@@ -2,7 +2,19 @@
   "item.teslacabinet.placeholder" : "Placeholder Item *qNoll's Mods*",
 
   "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
+
+  "block.teslacabinet.acacia_shelf_indented" : "Acacia Indented Shelf",
+  "block.teslacabinet.bamboo_shelf_indented" : "Bamboo Indented Shelf",
+  "block.teslacabinet.birch_shelf_indented" : "Birch Indented Shelf",
+  "block.teslacabinet.cherry_shelf_indented" : "Cherry Indented Shelf",
+  "block.teslacabinet.crimson_shelf_indented" : "Crimson Indented Shelf",
+  "block.teslacabinet.dark_oak_shelf_indented" : "Dark Oak Indented Shelf",
+  "block.teslacabinet.jungle_shelf_indented" : "Jungle Indented Shelf",
+  "block.teslacabinet.mangrove_shelf_indented" : "Mangrove Indented Shelf",
+  "block.teslacabinet.oak_shelf_indented" : "Oak Indented Shelf",
   "block.teslacabinet.spruce_shelf_indented" : "Смерекова полиця з відступом",
+  "block.teslacabinet.warped_shelf_indented" : "Warped Indented Shelf",
+
 
   "creativetab.teslacabinet_tab" : "Tesla's Cabinet"
 }

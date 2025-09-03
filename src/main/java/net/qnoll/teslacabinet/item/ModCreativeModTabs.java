@@ -24,7 +24,17 @@ public class ModCreativeModTabs {
                         //x-meters (with arrow)
                         output.accept(ModBlocks.THERMOCOUPLE.get());
                         //Shelves:
+                        output.accept(ModBlocks.ACACIA_SHELF_INDENTED.get());
+                        output.accept(ModBlocks.BAMBOO_SHELF_INDENTED.get());
+                        output.accept(ModBlocks.BIRCH_SHELF_INDENTED.get());
+                        output.accept(ModBlocks.CHERRY_SHELF_INDENTED.get());
+                        output.accept(ModBlocks.CRIMSON_SHELF_INDENTED.get());
+                        output.accept(ModBlocks.DARK_OAK_SHELF_INDENTED.get());
+                        output.accept(ModBlocks.JUNGLE_SHELF_INDENTED.get());
+                        output.accept(ModBlocks.MANGROVE_SHELF_INDENTED.get());
+                        output.accept(ModBlocks.OAK_SHELF_INDENTED.get());
                         output.accept(ModBlocks.SPRUCE_SHELF_INDENTED.get());
+                        output.accept(ModBlocks.WARPED_SHELF_INDENTED.get());
 
                         //### ITEMS:
                         output.accept(ModItems.PLACEHOLDER.get());

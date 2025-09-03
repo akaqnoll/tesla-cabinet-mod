@@ -46,7 +46,7 @@ public class TeslaCabinet {
     //Add alpha to textures when transparent (glass, planes, etc.)
     private void clientSetup (final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.THERMOCOUPLE.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPRUCE_SHELF_INDENTED.get(), RenderType.cutout());
+        //ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPRUCE_SHELF_INDENTED.get(), RenderType.cutout());
     }
 
 

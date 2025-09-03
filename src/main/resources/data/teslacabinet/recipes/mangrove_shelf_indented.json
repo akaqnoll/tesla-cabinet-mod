@@ -1,0 +1,24 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "building",
+  "pattern" : [
+    "SSS",
+    "SSS",
+    "WPW"
+  ],
+  "key" : {
+    "S": {
+      "item" : "minecraft:mangrove_slab"
+    },
+    "W" : {
+      "item" : "minecraft:stripped_mangrove_log"
+    },
+    "P" :{
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:mangrove_shelf_indented",
+    "count": 6
+  }
+}

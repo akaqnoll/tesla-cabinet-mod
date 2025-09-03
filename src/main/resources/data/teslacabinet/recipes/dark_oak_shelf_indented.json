@@ -1,0 +1,24 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "building",
+  "pattern" : [
+    "SSS",
+    "SSS",
+    "WPW"
+  ],
+  "key" : {
+    "S": {
+      "item" : "minecraft:dark_oak_slab"
+    },
+    "W" : {
+      "item" : "minecraft:stripped_dark_oak_log"
+    },
+    "P" :{
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:dark_oak_shelf_indented",
+    "count": 6
+  }
+}

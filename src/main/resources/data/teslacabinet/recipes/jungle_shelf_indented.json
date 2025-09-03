@@ -1,0 +1,24 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "building",
+  "pattern" : [
+    "SSS",
+    "SSS",
+    "WPW"
+  ],
+  "key" : {
+    "S": {
+      "item" : "minecraft:jungle_slab"
+    },
+    "W" : {
+      "item" : "minecraft:stripped_jungle_log"
+    },
+    "P" :{
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:jungle_shelf_indented",
+    "count": 6
+  }
+}

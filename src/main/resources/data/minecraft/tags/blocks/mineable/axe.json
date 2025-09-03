@@ -1,5 +1,15 @@
 {
   "values" : [
-    "teslacabinet:spruce_shelf_indented"
+    "teslacabinet:acacia_shelf_indented",
+    "teslacabinet:bamboo_shelf_indented",
+    "teslacabinet:birch_shelf_indented",
+    "teslacabinet:cherry_shelf_indented",
+    "teslacabinet:crimson_shelf_indented",
+    "teslacabinet:dark_oak_shelf_indented",
+    "teslacabinet:jungle_shelf_indented",
+    "teslacabinet:mangrove_shelf_indented",
+    "teslacabinet:oak_shelf_indented",
+    "teslacabinet:spruce_shelf_indented",
+    "teslacabinet:warped_shelf_indented"
   ]
 }
