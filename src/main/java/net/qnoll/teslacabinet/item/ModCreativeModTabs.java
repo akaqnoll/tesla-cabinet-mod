@@ -23,6 +23,8 @@ public class ModCreativeModTabs {
                         //### BLOCKS:
                         //dome guys
                         output.accept(ModBlocks.STATIC_ELECTRICITY_DOME.get());
+                        //phonographs:
+                        output.accept(ModBlocks.PHONOGRAPH_EDISON.get());
                         //x-meters (with arrow)
                         output.accept(ModBlocks.THERMOCOUPLE.get());
                         //Shelves:

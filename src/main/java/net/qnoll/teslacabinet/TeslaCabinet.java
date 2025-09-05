@@ -47,8 +47,9 @@ public class TeslaCabinet {
     private void clientSetup (final FMLClientSetupEvent event) {
         //dome guys
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.STATIC_ELECTRICITY_DOME.get(), RenderType.cutout());
-
-        //
+        //phonographs
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PHONOGRAPH_EDISON.get(), RenderType.cutout());
+        //x-meters
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.THERMOCOUPLE.get(), RenderType.cutout());
     }
 

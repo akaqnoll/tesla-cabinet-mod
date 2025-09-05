@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.qnoll.teslacabinet.TeslaCabinet;
+import net.qnoll.teslacabinet.block.custom.PhonographEdisonBlock;
 import net.qnoll.teslacabinet.block.custom.ShelfIndentedBlock;
 import net.qnoll.teslacabinet.block.custom.StaticElectricityDomeBlock;
 import net.qnoll.teslacabinet.block.custom.ThermocoupleBlock;
@@ -24,8 +25,12 @@ public class ModBlocks {
     //blocks start
 
     //glass dome guys
-    public static  final RegistryObject<Block> STATIC_ELECTRICITY_DOME = registerBlock("static_electricity_dome",
+    public static final RegistryObject<Block> STATIC_ELECTRICITY_DOME = registerBlock("static_electricity_dome",
             () -> new StaticElectricityDomeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+
+    //phonographs
+    public static final RegistryObject<Block> PHONOGRAPH_EDISON = registerBlock("phonograph_edison",
+            () -> new PhonographEdisonBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     //x-meters (with arrow)
     public static final RegistryObject<Block> THERMOCOUPLE = registerBlock("thermocouple",

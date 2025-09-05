@@ -1,0 +1,19 @@
+{
+  "variants" : {
+    "facing=north" : {
+      "model" : "teslacabinet:block/phonograph_edison"
+    },
+    "facing=south" : {
+      "model" : "teslacabinet:block/phonograph_edison",
+      "y" : 180
+    },
+    "facing=west" : {
+      "model" : "teslacabinet:block/phonograph_edison",
+      "y" : 270
+    },
+    "facing=east" : {
+      "model" : "teslacabinet:block/phonograph_edison",
+      "y" : 90
+    }
+  }
+}
