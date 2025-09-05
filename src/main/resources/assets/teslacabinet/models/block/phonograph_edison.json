@@ -4,7 +4,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "teslacabinet:block/phonograph_edison",
-		"particle": "mincraft:block/block_gold"
+		"particle": "minecraft:block/gold_block"
 	},
 	"elements": [
 		{

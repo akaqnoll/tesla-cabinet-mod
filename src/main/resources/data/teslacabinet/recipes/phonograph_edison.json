@@ -1,0 +1,29 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "GHG",
+    "NWN",
+    " J "
+  ],
+  "key" : {
+    "H": {
+      "item" : "minecraft:goat_horn"
+    },
+    "G" : {
+      "tag" : "forge:ingots/gold"
+    },
+    "N" : {
+      "tag": "forge:nuggets/iron"
+    },
+    "W" : {
+      "item": "minecraft:honeycomb"
+    },
+    "J" : {
+      "item" : "minecraft:jukebox"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:phonograph_edison"
+  }
+}
