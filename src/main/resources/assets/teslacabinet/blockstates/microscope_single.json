@@ -1,0 +1,19 @@
+{
+  "variants" : {
+    "facing=north" : {
+      "model" : "teslacabinet:block/microscope_single"
+    },
+    "facing=south" : {
+      "model" : "teslacabinet:block/microscope_single",
+      "y" : 180
+    },
+    "facing=west" : {
+      "model" : "teslacabinet:block/microscope_single",
+      "y" : 270
+    },
+    "facing=east" : {
+      "model" : "teslacabinet:block/microscope_single",
+      "y" : 90
+    }
+  }
+}

@@ -10,10 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.qnoll.teslacabinet.TeslaCabinet;
-import net.qnoll.teslacabinet.block.custom.PhonographEdisonBlock;
-import net.qnoll.teslacabinet.block.custom.ShelfIndentedBlock;
-import net.qnoll.teslacabinet.block.custom.StaticElectricityDomeBlock;
-import net.qnoll.teslacabinet.block.custom.ThermocoupleBlock;
+import net.qnoll.teslacabinet.block.custom.*;
 import net.qnoll.teslacabinet.item.ModItems;
 
 import java.util.function.Supplier;
@@ -30,7 +27,11 @@ public class ModBlocks {
 
     //phonographs
     public static final RegistryObject<Block> PHONOGRAPH_EDISON = registerBlock("phonograph_edison",
-            () -> new PhonographEdisonBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+            () -> new PhonographEdisonBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion()));
+
+    //microscopes
+    public static final RegistryObject<Block> MICROSCOPE_SINGLE = registerBlock("microscope_single",
+            () -> new MicroscopeSingleBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion()));
 
     //x-meters (with arrow)
     public static final RegistryObject<Block> THERMOCOUPLE = registerBlock("thermocouple",

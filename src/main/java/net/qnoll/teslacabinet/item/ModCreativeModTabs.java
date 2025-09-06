@@ -25,6 +25,8 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.STATIC_ELECTRICITY_DOME.get());
                         //phonographs:
                         output.accept(ModBlocks.PHONOGRAPH_EDISON.get());
+                        //microscopes:
+                        output.accept(ModBlocks.MICROSCOPE_SINGLE.get());
                         //x-meters (with arrow)
                         output.accept(ModBlocks.THERMOCOUPLE.get());
                         //Shelves:

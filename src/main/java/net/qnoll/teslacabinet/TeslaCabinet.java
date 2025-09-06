@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -49,6 +50,8 @@ public class TeslaCabinet {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.STATIC_ELECTRICITY_DOME.get(), RenderType.cutout());
         //phonographs
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PHONOGRAPH_EDISON.get(), RenderType.cutout());
+        //microscopes
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MICROSCOPE_SINGLE.get(), RenderType.cutout());
         //x-meters
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.THERMOCOUPLE.get(), RenderType.cutout());
     }
