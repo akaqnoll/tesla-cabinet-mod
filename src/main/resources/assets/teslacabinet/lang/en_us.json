@@ -1,13 +1,17 @@
 {
   "item.teslacabinet.placeholder" : "Placeholder Item *qNoll's Mods*",
 
-  "block.teslacabinet.thermocouple" : "Thermocouple Ampermeter",
+
 
   "block.teslacabinet.static_electricity_dome" : "Static Electicity Dome",
+  "block.teslacabinet.scales" : "Scales",
+  "block.teslacabinet.weight_iron" : "Iron Weight",
 
   "block.teslacabinet.phonograph_edison" : "Edison's Phonograph",
 
   "block.teslacabinet.microscope_single" : "Single-Lens Microscope",
+
+  "block.teslacabinet.thermocouple" : "Thermocouple Ampermeter",
 
   "block.teslacabinet.acacia_shelf_indented" : "Acacia Indented Shelf",
   "block.teslacabinet.bamboo_shelf_indented" : "Bamboo Indented Shelf",
@@ -20,6 +24,8 @@
   "block.teslacabinet.oak_shelf_indented" : "Oak Indented Shelf",
   "block.teslacabinet.spruce_shelf_indented" : "Spruce Indented Shelf",
   "block.teslacabinet.warped_shelf_indented" : "Warped Indented Shelf",
+
+
 
   "creativetab.teslacabinet_tab" : "Tesla's Cabinet"
 }

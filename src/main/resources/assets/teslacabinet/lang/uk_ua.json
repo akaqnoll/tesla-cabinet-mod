@@ -1,13 +1,16 @@
 {
   "item.teslacabinet.placeholder" : "Placeholder Item *qNoll's Mods*",
 
-  "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
 
   "block.teslacabinet.static_electricity_dome" : "Купол статичного струму",
+  "block.teslacabinet.scales" : "Ваги",
+  "block.teslacabinet.weight_iron" : "Залізна гиря",
 
   "block.teslacabinet.phonograph_edison" : "Фонограф Едісона",
 
   "block.teslacabinet.microscope_single" : "Монокулярний мікроскоп",
+
+  "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
 
   "block.teslacabinet.acacia_shelf_indented" : "Акацієва полиця з відступом",
   "block.teslacabinet.bamboo_shelf_indented" : "Бамбукова полиця з відступом",
@@ -20,6 +23,7 @@
   "block.teslacabinet.oak_shelf_indented" : "Дубова полиця з відступом",
   "block.teslacabinet.spruce_shelf_indented" : "Смерекова полиця з відступом",
   "block.teslacabinet.warped_shelf_indented" : "Химерна полиця з відступом",
+
 
 
   "creativetab.teslacabinet_tab" : "Tesla's Cabinet"

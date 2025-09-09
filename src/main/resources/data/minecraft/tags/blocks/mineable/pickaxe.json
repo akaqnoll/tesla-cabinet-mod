@@ -1,8 +1,13 @@
 {
   "values" : [
-    "teslacabinet:thermocouple",
     "teslacabinet:static_electricity_dome",
+    "teslacabinet:scales",
+    "teslacabinet:static_electricity_dome",
+
+    "teslacabinet:thermocouple",
+
     "teslacabinet:phonograph_edison",
+
     "teslacabinet:microscope_single"
   ]
 }

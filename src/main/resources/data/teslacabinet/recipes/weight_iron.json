@@ -1,0 +1,20 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "N",
+    "I"
+  ],
+  "key" : {
+    "N": {
+      "tag": "forge:nuggets/iron"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:weight_iron",
+    "count": 3
+  }
+}

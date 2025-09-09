@@ -21,9 +21,13 @@ public class ModBlocks {
 
     //blocks start
 
-    //glass dome guys
+    //misc
     public static final RegistryObject<Block> STATIC_ELECTRICITY_DOME = registerBlock("static_electricity_dome",
             () -> new StaticElectricityDomeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> SCALES = registerBlock("scales",
+            () -> new ScalesBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> WEIGHT_IRON = registerBlock("weight_iron",
+            () -> new WeightsBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     //phonographs
     public static final RegistryObject<Block> PHONOGRAPH_EDISON = registerBlock("phonograph_edison",
