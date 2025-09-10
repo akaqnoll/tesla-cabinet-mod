@@ -17,10 +17,12 @@ public class ModCreativeModTabs {
     public static final RegistryObject<CreativeModeTab> TESLACABINET_TAB = CREATIVE_MODE_TABS.register("teslacabinet_tab",
             () -> CreativeModeTab.builder()
                     //an icon for the creative tab (ITEM)
-                    .icon(() -> new ItemStack(ModItems.PLACEHOLDER.get()))
+                    .icon(() -> new ItemStack(ModBlocks.PHONOGRAPH_EDISON.get()))
                     .title(Component.translatable("creativetab.teslacabinet_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         //### BLOCKS:
+                        //chemistry
+                        output.accept(ModBlocks.ALEMBIC_COPPER.get());
                         //misc
                         output.accept(ModBlocks.STATIC_ELECTRICITY_DOME.get());
                         output.accept(ModBlocks.SCALES.get());

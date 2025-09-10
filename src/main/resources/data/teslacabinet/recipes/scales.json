@@ -2,25 +2,25 @@
   "type" : "minecraft:crafting_shaped",
   "category" : "misc",
   "pattern" : [
-    " L ",
+    " N ",
     "NRN",
-    "GGG"
+    "BGB"
   ],
   "key" : {
-    "L": {
-      "item": "minecraft:glass"
-    },
-    "N" : {
+    "N": {
       "tag" : "forge:nuggets/gold"
     },
     "R" : {
       "item" : "minecraft:blaze_rod"
+    },
+    "B" : {
+      "item" : "minecraft:bowl"
     },
     "G" : {
       "tag" : "forge:ingots/gold"
     }
   },
   "result" : {
-    "item": "teslacabinet:microscope_single"
+    "item": "teslacabinet:scales"
   }
 }

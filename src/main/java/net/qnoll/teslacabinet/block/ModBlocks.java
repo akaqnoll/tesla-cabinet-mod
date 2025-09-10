@@ -21,6 +21,10 @@ public class ModBlocks {
 
     //blocks start
 
+    //chemistry
+    public static final RegistryObject<Block> ALEMBIC_COPPER = registerBlock("alembic_copper",
+            () -> new AlembicCopperBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).noOcclusion()));
+
     //misc
     public static final RegistryObject<Block> STATIC_ELECTRICITY_DOME = registerBlock("static_electricity_dome",
             () -> new StaticElectricityDomeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));

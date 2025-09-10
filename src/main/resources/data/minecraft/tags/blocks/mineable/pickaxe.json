@@ -1,13 +1,15 @@
 {
   "values" : [
+    "teslacabinet:alembic_copper",
+
     "teslacabinet:static_electricity_dome",
     "teslacabinet:scales",
-    "teslacabinet:static_electricity_dome",
-
-    "teslacabinet:thermocouple",
+    "teslacabinet:weight_iron",
 
     "teslacabinet:phonograph_edison",
 
-    "teslacabinet:microscope_single"
+    "teslacabinet:microscope_single",
+
+    "teslacabinet:thermocouple"
   ]
 }
