@@ -1,0 +1,24 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "GRG",
+    "RSR",
+    "GRG"
+  ],
+  "key" : {
+    "S": {
+      "item" : "minecraft:shroomlight"
+    },
+    "R" : {
+      "item" : "minecraft:redstone"
+    },
+    "G" : {
+      "item" : "minecraft:green_dye"
+    }
+  },
+  "result" : {
+    "item" : "teslacabinet:canary_dust",
+    "count" : 4
+  }
+}

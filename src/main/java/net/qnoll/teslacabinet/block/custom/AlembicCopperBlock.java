@@ -1,6 +1,11 @@
 package net.qnoll.teslacabinet.block.custom;
 
+import net.minecraft.ChatFormatting;
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
@@ -14,6 +19,9 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class AlembicCopperBlock extends HorizontalDirectionalBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
@@ -26,6 +34,21 @@ public class AlembicCopperBlock extends HorizontalDirectionalBlock {
             Block.box(3, 0, 3, 13, 13, 13)
 
     );
+
+    @Override
+    public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
+        pTooltip.add(Component.translatable("tooltip.teslacabinet.alembic_copper.tooltip")
+                .withStyle(ChatFormatting.GRAY));
+        if (Screen.hasShiftDown()) {
+            pTooltip.add(Component.translatable("tooltip.teslacabinet.alembic_copper.lore")
+                    .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
+        } else {
+            pTooltip.add(Component.translatable("tooltip.teslacabinet.shift_hint")
+                    .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
+        }
+
+        super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
+    };
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {

@@ -1,7 +1,13 @@
 package net.qnoll.teslacabinet.block;
 
+import net.minecraft.ChatFormatting;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -12,7 +18,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.qnoll.teslacabinet.TeslaCabinet;
 import net.qnoll.teslacabinet.block.custom.*;
 import net.qnoll.teslacabinet.item.ModItems;
+import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -44,6 +52,27 @@ public class ModBlocks {
     //x-meters (with arrow)
     public static final RegistryObject<Block> THERMOCOUPLE = registerBlock("thermocouple",
             () -> new ThermocoupleBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+
+    //decorative blocks:
+    //glass:
+    public static final RegistryObject<Block> CANARY_GLASS = registerBlock("canary_glass",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 4))
+            {
+                @Override
+                public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
+                    pTooltip.add(Component.translatable("tooltip.teslacabinet.canary_glass.tooltip")
+                            .withStyle(ChatFormatting.GRAY));
+                    if (Screen.hasShiftDown()) {
+                        pTooltip.add(Component.translatable("tooltip.teslacabinet.canary_glass.lore")
+                                .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
+                    } else {
+                        pTooltip.add(Component.translatable("tooltip.teslacabinet.shift_hint")
+                                .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
+                    }
+
+                    super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
+                }
+            });
     //shelves
     public static final RegistryObject<Block> ACACIA_SHELF_INDENTED = registerBlock("acacia_shelf_indented",
             () -> new ShelfIndentedBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));

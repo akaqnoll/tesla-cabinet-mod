@@ -1,17 +1,31 @@
 {
-  "item.teslacabinet.placeholder" : "Placeholder Item *qNoll's Mods*",
+  "tooltip.teslacabinet.shift_hint": "Затисніть Shift, щоб дізнатись більше ->",
 
-  "block.teslacabinet.alembic_copper" : "Copper Alembic",
+  "item.teslacabinet.canary_dust" : "Царський пил",
+
+  "block.teslacabinet.alembic_copper" : "Мідний перегінний куб",
+  "tooltip.teslacabinet.alembic_copper.tooltip": "*desc*",
+  "tooltip.teslacabinet.alembic_copper.lore": "*desc2*",
 
   "block.teslacabinet.static_electricity_dome" : "Купол статичного струму",
   "block.teslacabinet.scales" : "Ваги",
+      "tooltip.teslacabinet.scales.tooltip": "Терези нахиляються та опускаються, безшумний танець гир, що вимірюють",
+      "tooltip.teslacabinet.scales.lore": "Ваги з точністю вимірювали товари та золото, а як настало 18 століття, було віддано перевагу латуні як матеріалу для їх виготовлення.",
   "block.teslacabinet.weight_iron" : "Залізна гиря",
 
   "block.teslacabinet.phonograph_edison" : "Фонограф Едісона",
+      "tooltip.teslacabinet.phonograph_edison.tooltip": "Перший голос, записаний за допомогою апарату",
+      "tooltip.teslacabinet.phonograph_edison.lore": "Американський винахідник Томас Едісон відповідальний за багато відомих творінь, але його улюбленим був фонограф.",
 
   "block.teslacabinet.microscope_single" : "Монокулярний мікроскоп",
+      "tooltip.teslacabinet.microscope_single.tooltip": "Вічко у найменьший зі світів",
+      "tooltip.teslacabinet.microscope_single.lore": "Зі скромних початків наприкінці 16 століття мікроскоп перетворився з простої лінзи на революційне вікно в невидиме, захоплюючи як вчених, так і громадськість.",
 
   "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
+
+  "block.teslacabinet.canary_glass" : "Царське скло",
+      "tooltip.teslacabinet.canary_glass.tooltip": "*опис*",
+      "tooltip.teslacabinet.canary_glass.lore": "*опис2*",
 
   "block.teslacabinet.acacia_shelf_indented" : "Акацієва полиця з відступом",
   "block.teslacabinet.bamboo_shelf_indented" : "Бамбукова полиця з відступом",

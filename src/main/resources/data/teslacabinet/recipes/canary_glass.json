@@ -1,0 +1,21 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "GGG",
+    "GUG",
+    "GGG"
+  ],
+  "key" : {
+    "G": {
+      "item" : "minecraft:glass"
+    },
+    "U" : {
+      "item" : "teslacabinet:canary_dust"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:canary_glass",
+    "count" : 8
+  }
+}

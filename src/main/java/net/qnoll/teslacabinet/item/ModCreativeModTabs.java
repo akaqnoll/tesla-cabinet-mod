@@ -33,6 +33,9 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.MICROSCOPE_SINGLE.get());
                         //x-meters (with arrow)
                         output.accept(ModBlocks.THERMOCOUPLE.get());
+                        //decorative:
+                        //glass:
+                        output.accept(ModBlocks.CANARY_GLASS.get());
                         //Shelves:
                         output.accept(ModBlocks.ACACIA_SHELF_INDENTED.get());
                         output.accept(ModBlocks.BAMBOO_SHELF_INDENTED.get());
@@ -47,7 +50,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.WARPED_SHELF_INDENTED.get());
 
                         //### ITEMS:
-                        output.accept(ModItems.PLACEHOLDER.get());
+                        output.accept(ModItems.CANARY_DUST.get());
                     })
                     .build());
 
