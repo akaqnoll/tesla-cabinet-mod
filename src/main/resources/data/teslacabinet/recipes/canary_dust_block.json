@@ -1,0 +1,18 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "building",
+  "pattern" : [
+    "###",
+    "###",
+    "###"
+  ],
+  "key" : {
+    "#": {
+      "item" : "teslacabinet:canary_dust"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:bamboo_shelf_indented",
+    "count": 6
+  }
+}

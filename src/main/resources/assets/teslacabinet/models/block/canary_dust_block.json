@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "teslacabinet:block/canary_glass"
+    "all": "teslacabinet:block/canary_dust_block"
   }
 }

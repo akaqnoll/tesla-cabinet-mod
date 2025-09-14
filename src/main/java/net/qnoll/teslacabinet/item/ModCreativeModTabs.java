@@ -34,6 +34,8 @@ public class ModCreativeModTabs {
                         //x-meters (with arrow)
                         output.accept(ModBlocks.THERMOCOUPLE.get());
                         //decorative:
+                        //very misc
+                        output.accept(ModBlocks.CANARY_DUST_BLOCK.get());
                         //glass:
                         output.accept(ModBlocks.CANARY_GLASS.get());
                         output.accept(ModBlocks.CANARY_GLASS_PANE.get());

@@ -23,6 +23,7 @@
 
   "block.teslacabinet.thermocouple" : "Thermocouple Ampermeter",
 
+  "block.teslacabinet.canary_dust_block" : "Canary Dust Block",
   "block.teslacabinet.canary_glass" : "Canary Glass",
   "block.teslacabinet.canary_glass_pane" : "Canary Glass Pane",
 

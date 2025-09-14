@@ -1,5 +1,6 @@
 {
-  "values" : [
+  "replace": false,
+  "values": [
     "teslacabinet:canary_dust_block"
   ]
 }

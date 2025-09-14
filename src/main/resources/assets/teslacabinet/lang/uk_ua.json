@@ -23,6 +23,7 @@
 
   "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
 
+  "block.teslacabinet.canary_dust_block" : "Блок царського пилу",
   "block.teslacabinet.canary_glass" : "Царське скло",
   "block.teslacabinet.canary_glass_pane" : "Царське скло2",
 

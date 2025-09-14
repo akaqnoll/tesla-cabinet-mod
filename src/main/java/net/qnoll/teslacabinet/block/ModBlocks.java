@@ -1,18 +1,9 @@
 package net.qnoll.teslacabinet.block;
 
-import net.minecraft.ChatFormatting;
-import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.Direction;
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.GlassBlock;
-import net.minecraft.world.level.block.IronBarsBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,7 +13,6 @@ import net.minecraftforge.registries.RegistryObject;
 import net.qnoll.teslacabinet.TeslaCabinet;
 import net.qnoll.teslacabinet.block.custom.*;
 import net.qnoll.teslacabinet.item.ModItems;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 import java.util.function.Supplier;
@@ -58,24 +48,14 @@ public class ModBlocks {
             () -> new ThermocoupleBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     //decorative blocks:
+    //misc
+    public static final RegistryObject<Block> CANARY_DUST_BLOCK = registerBlock("canary_dust_block",
+            () -> new CanaryDustBlock(BlockBehaviour.Properties.copy(Blocks.SAND).lightLevel(state -> 1)));
     //glass:
     public static final RegistryObject<Block> CANARY_GLASS = registerBlock("canary_glass",
-            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 4))
-            {
-                @Override
-                public boolean skipRendering(BlockState pState, BlockState pAdjacentBlockState, Direction pSide) {
-                    return pAdjacentBlockState.is(this) || super.skipRendering(pState, pAdjacentBlockState, pSide);
-                }
-            });
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 4)));
     public static final RegistryObject<Block> CANARY_GLASS_PANE = registerBlock("canary_glass_pane",
-            () -> new IronBarsBlock(BlockBehaviour.Properties.copy(Blocks.GLASS_PANE).noOcclusion()
-                    .lightLevel(state -> 4))
-            {
-                @Override
-                public boolean skipRendering(BlockState pState, BlockState pAdjacentBlockState, Direction pSide) {
-                    return pAdjacentBlockState.is(this) || super.skipRendering(pState, pAdjacentBlockState, pSide);
-                }
-            });
+            () -> new IronBarsBlock(BlockBehaviour.Properties.copy(Blocks.GLASS_PANE).noOcclusion().lightLevel(state -> 4)));
     //shelves
     public static final RegistryObject<Block> ACACIA_SHELF_INDENTED = registerBlock("acacia_shelf_indented",
             () -> new ShelfIndentedBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
