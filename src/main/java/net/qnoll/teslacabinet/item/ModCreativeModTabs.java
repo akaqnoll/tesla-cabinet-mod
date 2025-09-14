@@ -36,6 +36,7 @@ public class ModCreativeModTabs {
                         //decorative:
                         //glass:
                         output.accept(ModBlocks.CANARY_GLASS.get());
+                        output.accept(ModBlocks.CANARY_GLASS_PANE.get());
                         //Shelves:
                         output.accept(ModBlocks.ACACIA_SHELF_INDENTED.get());
                         output.accept(ModBlocks.BAMBOO_SHELF_INDENTED.get());

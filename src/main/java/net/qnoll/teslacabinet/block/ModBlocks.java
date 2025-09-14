@@ -2,6 +2,7 @@ package net.qnoll.teslacabinet.block;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -10,7 +11,10 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.GlassBlock;
+import net.minecraft.world.level.block.IronBarsBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -56,21 +60,20 @@ public class ModBlocks {
     //decorative blocks:
     //glass:
     public static final RegistryObject<Block> CANARY_GLASS = registerBlock("canary_glass",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 4))
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 4))
             {
                 @Override
-                public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
-                    pTooltip.add(Component.translatable("tooltip.teslacabinet.canary_glass.tooltip")
-                            .withStyle(ChatFormatting.GRAY));
-                    if (Screen.hasShiftDown()) {
-                        pTooltip.add(Component.translatable("tooltip.teslacabinet.canary_glass.lore")
-                                .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
-                    } else {
-                        pTooltip.add(Component.translatable("tooltip.teslacabinet.shift_hint")
-                                .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
-                    }
-
-                    super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
+                public boolean skipRendering(BlockState pState, BlockState pAdjacentBlockState, Direction pSide) {
+                    return pAdjacentBlockState.is(this) || super.skipRendering(pState, pAdjacentBlockState, pSide);
+                }
+            });
+    public static final RegistryObject<Block> CANARY_GLASS_PANE = registerBlock("canary_glass_pane",
+            () -> new IronBarsBlock(BlockBehaviour.Properties.copy(Blocks.GLASS_PANE).noOcclusion()
+                    .lightLevel(state -> 4))
+            {
+                @Override
+                public boolean skipRendering(BlockState pState, BlockState pAdjacentBlockState, Direction pSide) {
+                    return pAdjacentBlockState.is(this) || super.skipRendering(pState, pAdjacentBlockState, pSide);
                 }
             });
     //shelves

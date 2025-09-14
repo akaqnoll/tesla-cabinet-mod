@@ -24,8 +24,7 @@
   "block.teslacabinet.thermocouple" : "Thermocouple Ampermeter",
 
   "block.teslacabinet.canary_glass" : "Canary Glass",
-      "tooltip.teslacabinet.canary_glass.tooltip": "*desc*",
-      "tooltip.teslacabinet.canary_glass.lore": "*desc2*",
+  "block.teslacabinet.canary_glass_pane" : "Canary Glass Pane",
 
   "block.teslacabinet.acacia_shelf_indented" : "Acacia Indented Shelf",
   "block.teslacabinet.bamboo_shelf_indented" : "Bamboo Indented Shelf",

@@ -24,8 +24,7 @@
   "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
 
   "block.teslacabinet.canary_glass" : "Царське скло",
-      "tooltip.teslacabinet.canary_glass.tooltip": "*опис*",
-      "tooltip.teslacabinet.canary_glass.lore": "*опис2*",
+  "block.teslacabinet.canary_glass_pane" : "Царське скло2",
 
   "block.teslacabinet.acacia_shelf_indented" : "Акацієва полиця з відступом",
   "block.teslacabinet.bamboo_shelf_indented" : "Бамбукова полиця з відступом",
