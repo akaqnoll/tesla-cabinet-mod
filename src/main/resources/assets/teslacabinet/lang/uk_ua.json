@@ -2,30 +2,30 @@
   "tooltip.teslacabinet.shift_hint": "Затисніть Shift, щоб дізнатись більше ->",
 
   "item.teslacabinet.canary_dust" : "Царський пил",
+      "tooltip.teslacabinet.canary_dust.lore": "TПоєднання краси з моторошною чарівністю радіоактивності.",
 
   "block.teslacabinet.alembic_copper" : "Мідний перегінний куб",
-  "tooltip.teslacabinet.alembic_copper.tooltip": "*desc*",
-  "tooltip.teslacabinet.alembic_copper.lore": "*desc2*",
+      "tooltip.teslacabinet.alembic_copper.lore": "Мідний перегінний куб, удосконалений у Середньовіччі, став наріжним каменем ранньої дистиляції, дозволяючи алхімікам та аптекарям добувати та очищувати рідини з безпрецедентним контролем.",
 
   "block.teslacabinet.static_electricity_dome" : "Купол статичного струму",
+      "tooltip.teslacabinet.static_electricity_dome.lore": "Купол статичного струму, блискуче диво, потріскував невидимою енергією, викликаючи в пам'яті зухвалу винахідливість та електричне видовище.",
   "block.teslacabinet.scales" : "Ваги",
-      "tooltip.teslacabinet.scales.tooltip": "Терези нахиляються та опускаються, безшумний танець гир, що вимірюють",
       "tooltip.teslacabinet.scales.lore": "Ваги з точністю вимірювали товари та золото, а як настало 18 століття, було віддано перевагу латуні як матеріалу для їх виготовлення.",
   "block.teslacabinet.weight_iron" : "Залізна гиря",
 
   "block.teslacabinet.phonograph_edison" : "Фонограф Едісона",
-      "tooltip.teslacabinet.phonograph_edison.tooltip": "Перший голос, записаний за допомогою апарату",
       "tooltip.teslacabinet.phonograph_edison.lore": "Американський винахідник Томас Едісон відповідальний за багато відомих творінь, але його улюбленим був фонограф.",
 
   "block.teslacabinet.microscope_single" : "Монокулярний мікроскоп",
-      "tooltip.teslacabinet.microscope_single.tooltip": "Вічко у найменьший зі світів",
       "tooltip.teslacabinet.microscope_single.lore": "Зі скромних початків наприкінці 16 століття мікроскоп перетворився з простої лінзи на революційне вікно в невидиме, захоплюючи як вчених, так і громадськість.",
 
   "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
+      "tooltip.teslacabinet.thermocouple.lore": "Амперметр на основі термопари, що з'явився наприкінці 19 століття, вимірював електричний струм, перетворюючи тепло в читабельне значення.",
 
   "block.teslacabinet.canary_dust_block" : "Блок царського пилу",
   "block.teslacabinet.canary_glass" : "Царське скло",
-  "block.teslacabinet.canary_glass_pane" : "Царське скло2",
+  "block.teslacabinet.canary_glass_pane" : "Царська шибка",
+  "block.teslacabinet.canary_wineglass" : "Царскьий келих",
 
   "block.teslacabinet.acacia_shelf_indented" : "Акацієва полиця з відступом",
   "block.teslacabinet.bamboo_shelf_indented" : "Бамбукова полиця з відступом",

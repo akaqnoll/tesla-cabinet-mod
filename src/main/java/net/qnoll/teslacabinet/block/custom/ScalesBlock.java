@@ -46,8 +46,6 @@ public class ScalesBlock extends HorizontalDirectionalBlock {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
-        pTooltip.add(Component.translatable("tooltip.teslacabinet.scales.tooltip")
-                .withStyle(ChatFormatting.GRAY));
         if (Screen.hasShiftDown()) {
             pTooltip.add(Component.translatable("tooltip.teslacabinet.scales.lore")
                     .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));

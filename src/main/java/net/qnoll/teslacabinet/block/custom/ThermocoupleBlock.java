@@ -33,10 +33,8 @@ public class ThermocoupleBlock extends HorizontalDirectionalBlock {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
-        pTooltip.add(Component.translatable("tooltip.teslacabinet.microscope_single.tooltip")
-                .withStyle(ChatFormatting.GRAY));
         if (Screen.hasShiftDown()) {
-            pTooltip.add(Component.translatable("tooltip.teslacabinet.microscope_single.lore")
+            pTooltip.add(Component.translatable("tooltip.teslacabinet.thermocouple.lore")
                     .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
         } else {
             pTooltip.add(Component.translatable("tooltip.teslacabinet.shift_hint")

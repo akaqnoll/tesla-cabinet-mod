@@ -70,8 +70,6 @@ public class PhonographEdisonBlock extends HorizontalDirectionalBlock {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
-        pTooltip.add(Component.translatable("tooltip.teslacabinet.phonograph_edison.tooltip")
-                .withStyle(ChatFormatting.GRAY));
         if (Screen.hasShiftDown()) {
             pTooltip.add(Component.translatable("tooltip.teslacabinet.phonograph_edison.lore")
                     .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));

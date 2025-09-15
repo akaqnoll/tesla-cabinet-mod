@@ -49,13 +49,16 @@ public class ModBlocks {
 
     //decorative blocks:
     //misc
-    public static final RegistryObject<Block> CANARY_DUST_BLOCK = registerBlock("canary_dust_block",
+    public static final RegistryObject<Block> CANARY_DUST_BLOCK = BLOCKS.register("canary_dust_block",
             () -> new CanaryDustBlock(BlockBehaviour.Properties.copy(Blocks.SAND).lightLevel(state -> 1)));
     //glass:
     public static final RegistryObject<Block> CANARY_GLASS = registerBlock("canary_glass",
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 4)));
     public static final RegistryObject<Block> CANARY_GLASS_PANE = registerBlock("canary_glass_pane",
             () -> new IronBarsBlock(BlockBehaviour.Properties.copy(Blocks.GLASS_PANE).noOcclusion().lightLevel(state -> 4)));
+    //glassware
+    public static final RegistryObject<Block> CANARY_WINEGLASS = registerBlock("canary_wineglass",
+            () -> new GlasswareBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 3)));
     //shelves
     public static final RegistryObject<Block> ACACIA_SHELF_INDENTED = registerBlock("acacia_shelf_indented",
             () -> new ShelfIndentedBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));

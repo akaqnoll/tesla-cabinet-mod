@@ -1,5 +1,14 @@
 package net.qnoll.teslacabinet.block.entity.custom;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.phys.Vec3;
 import net.qnoll.teslacabinet.block.entity.ModBlockEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -36,6 +45,31 @@ public class CanaryDustBlockEntity extends BlockEntity {
                         true,
                         true
                 ));
+            }
+        }
+    }
+
+    public void tickClient() {
+        if (this.level == null) return;
+
+        // Only if a player is nearby
+        AABB area = new AABB(worldPosition).inflate(2);
+        List<Player> players = this.level.getEntitiesOfClass(Player.class, area);
+
+        if (!players.isEmpty()) {
+            RandomSource random = this.level.random;
+
+            if (random.nextFloat() < 0.02f) {
+                this.level.playLocalSound(
+                        worldPosition.getX() + 0.5,
+                        worldPosition.getY() + 0.5,
+                        worldPosition.getZ() + 0.5,
+                        SoundEvents.AMBIENT_BASALT_DELTAS_ADDITIONS.value(),
+                        SoundSource.BLOCKS,
+                        0.5f,
+                        1.0f,
+                        false
+                );
             }
         }
     }

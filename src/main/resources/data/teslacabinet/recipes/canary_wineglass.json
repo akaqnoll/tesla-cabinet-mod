@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "P P",
+    " P "
+  ],
+  "key" : {
+    "P": {
+      "item" : "teslacabinet:canary_glass_pane"
+    }
+  },
+  "result" : {
+    "item" : "teslacabinet:canary_wineglass",
+    "count" : 4
+  }
+}

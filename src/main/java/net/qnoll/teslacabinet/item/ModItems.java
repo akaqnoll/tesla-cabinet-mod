@@ -6,6 +6,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.qnoll.teslacabinet.TeslaCabinet;
+import net.qnoll.teslacabinet.block.ModBlocks;
+import net.qnoll.teslacabinet.item.custom.CanaryDustBlockItem;
 import net.qnoll.teslacabinet.item.custom.CanaryDustItem;
 
 public class ModItems {
@@ -15,6 +17,8 @@ public class ModItems {
     public static final RegistryObject<Item> CANARY_DUST = ITEMS.register("canary_dust",
             ()-> new CanaryDustItem(new Item.Properties()));
 
+    public static final RegistryObject<Item> CANARY_DUST_BLOCK_ITEM = ITEMS.register("canary_dust_block",
+            () -> new CanaryDustBlockItem(ModBlocks.CANARY_DUST_BLOCK.get(),new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

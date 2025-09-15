@@ -25,10 +25,19 @@ public class CanaryDustBlock extends FallingBlock implements EntityBlock {
     @Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, BlockEntityType<T> pBlockEntityType) {
-        return pLevel.isClientSide ? null : (lvl, pos, st, be) -> {
-            if (be instanceof CanaryDustBlockEntity entity) {
-                entity.tickServer();
-            }
-        };
+        if (pLevel.isClientSide) {
+            return (lvl, pos, st, be) -> {
+                if (be instanceof CanaryDustBlockEntity entity) {
+                    entity.tickClient();
+                }
+            };
+        } else {
+            return (lvl, pos, st, be) -> {
+                if (be instanceof CanaryDustBlockEntity entity) {
+                    entity.tickServer();
+                }
+            };
+        }
+
     }
 }

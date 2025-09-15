@@ -35,10 +35,12 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.THERMOCOUPLE.get());
                         //decorative:
                         //very misc
-                        output.accept(ModBlocks.CANARY_DUST_BLOCK.get());
+                        output.accept(ModItems.CANARY_DUST_BLOCK_ITEM.get());
                         //glass:
                         output.accept(ModBlocks.CANARY_GLASS.get());
                         output.accept(ModBlocks.CANARY_GLASS_PANE.get());
+                        //glassware
+                        output.accept(ModBlocks.CANARY_WINEGLASS.get());
                         //Shelves:
                         output.accept(ModBlocks.ACACIA_SHELF_INDENTED.get());
                         output.accept(ModBlocks.BAMBOO_SHELF_INDENTED.get());
