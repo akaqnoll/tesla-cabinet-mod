@@ -1,0 +1,24 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "DDD",
+    "BBB",
+    "LLL"
+  ],
+  "key" : {
+    "D": {
+      "item" : "teslacabinet:canary_dust"
+    },
+    "B" : {
+      "item" : "minecraft:glow_berries"
+    },
+    "L" :{
+      "tag": "minecraft:leaves"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:tango",
+    "count": 3
+  }
+}

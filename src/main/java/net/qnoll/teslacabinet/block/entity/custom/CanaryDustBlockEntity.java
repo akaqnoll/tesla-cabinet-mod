@@ -1,14 +1,9 @@
 package net.qnoll.teslacabinet.block.entity.custom;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.phys.Vec3;
 import net.qnoll.teslacabinet.block.entity.ModBlockEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -17,6 +12,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
+import net.qnoll.teslacabinet.sound.ModSounds;
 
 import java.util.List;
 
@@ -52,27 +48,28 @@ public class CanaryDustBlockEntity extends BlockEntity {
     public void tickClient() {
         if (this.level == null) return;
 
-        // Only if a player is nearby
-        AABB area = new AABB(worldPosition).inflate(2);
+        AABB area = new AABB(worldPosition).inflate(RADIUS);
         List<Player> players = this.level.getEntitiesOfClass(Player.class, area);
 
         if (!players.isEmpty()) {
             RandomSource random = this.level.random;
 
-            if (random.nextFloat() < 0.02f) {
+            if (random.nextFloat() < 0.005f) {
+                int idx = random.nextInt(ModSounds.CLICK_SOUNDS.length);
+                SoundEvent sound = ModSounds.CLICK_SOUNDS[idx].get();
+
                 this.level.playLocalSound(
                         worldPosition.getX() + 0.5,
                         worldPosition.getY() + 0.5,
                         worldPosition.getZ() + 0.5,
-                        SoundEvents.AMBIENT_BASALT_DELTAS_ADDITIONS.value(),
+                        sound,
                         SoundSource.BLOCKS,
-                        0.5f,
+                        0.1f,
                         1.0f,
                         false
                 );
             }
         }
     }
-
 
 }

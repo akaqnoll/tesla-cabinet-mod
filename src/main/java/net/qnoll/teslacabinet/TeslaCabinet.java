@@ -17,6 +17,7 @@ import net.qnoll.teslacabinet.block.ModBlocks;
 import net.qnoll.teslacabinet.block.entity.ModBlockEntities;
 import net.qnoll.teslacabinet.item.ModCreativeModTabs;
 import net.qnoll.teslacabinet.item.ModItems;
+import net.qnoll.teslacabinet.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -35,6 +36,7 @@ public class TeslaCabinet {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::clientSetup);
@@ -64,6 +66,7 @@ public class TeslaCabinet {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CANARY_GLASS_PANE.get(), RenderType.translucent());
         //glassware
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CANARY_WINEGLASS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.CANARY_CUP.get(), RenderType.cutout());
     }
 
 

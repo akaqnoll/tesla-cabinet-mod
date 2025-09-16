@@ -3,6 +3,8 @@
 
   "item.teslacabinet.canary_dust" : "Canary Dust",
       "tooltip.teslacabinet.canary_dust.lore": "Blending beauty with the eerie allure of radioactivity.",
+  "item.teslacabinet.tango" : "Tango",
+      "tooltip.teslacabinet.tango.lore": "\"Стоп... Ты чё, сразу 3 сожрал что-ли?!\"",
 
   "block.teslacabinet.alembic_copper" : "Copper Alembic",
       "tooltip.teslacabinet.alembic_copper.lore": "The copper alembic, perfected in the Middle Ages, became a cornerstone of early distillation, enabling alchemists and apothecaries to extract and purify liquids with unprecedented control.",
@@ -25,7 +27,9 @@
   "block.teslacabinet.canary_dust_block" : "Canary Dust Block",
   "block.teslacabinet.canary_glass" : "Canary Glass",
   "block.teslacabinet.canary_glass_pane" : "Canary Glass Pane",
+
   "block.teslacabinet.canary_wineglass" : "Canary Wineglass",
+  "block.teslacabinet.canary_cup" : "Canary Cup",
 
   "block.teslacabinet.acacia_shelf_indented" : "Acacia Indented Shelf",
   "block.teslacabinet.bamboo_shelf_indented" : "Bamboo Indented Shelf",
@@ -38,6 +42,9 @@
   "block.teslacabinet.oak_shelf_indented" : "Oak Indented Shelf",
   "block.teslacabinet.spruce_shelf_indented" : "Spruce Indented Shelf",
   "block.teslacabinet.warped_shelf_indented" : "Warped Indented Shelf",
+
+  "advancements.teslacabinet.tango_advancement.title" : "12 Tango!",
+  "advancements.teslacabinet.tango_advancement.desc" : "Obtain 12 Tango like that one legendary Lifestealer did.",
 
 
 

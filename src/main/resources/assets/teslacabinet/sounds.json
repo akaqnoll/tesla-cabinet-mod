@@ -1,0 +1,12 @@
+{
+  "click1": { "sounds": [ "teslacabinet:click/click1" ] },
+  "click2": { "sounds": [ "teslacabinet:click/click2" ] },
+  "click3": { "sounds": [ "teslacabinet:click/click3" ] },
+  "click4": { "sounds": [ "teslacabinet:click/click4" ] },
+  "click5": { "sounds": [ "teslacabinet:click/click5" ] },
+  "click6": { "sounds": [ "teslacabinet:click/click6" ] },
+  "click7": { "sounds": [ "teslacabinet:click/click7" ] },
+  "click8": { "sounds": [ "teslacabinet:click/click8" ] },
+
+  "tango_tree_sound" : { "sounds" : [ "teslacabinet:tango_tree_sound" ] }
+}

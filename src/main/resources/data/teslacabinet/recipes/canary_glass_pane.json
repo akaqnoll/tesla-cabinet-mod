@@ -1,16 +1,18 @@
 {
-  "type" : "minecraft:crafting_shaped",
-  "category" : "misc",
-  "pattern" : [
-    "GGG",
-    "GUG"
-  ],
-  "key" : {
-    "G": {
-      "item" : "teslacabinet:canary_glass"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "teslacabinet:canary_glass"
     }
-  "result" : {
-    "item": "teslacabinet:canary_glass_pane",
-    "count" : 8
-  }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 16,
+    "item": "teslacabinet:canary_glass_pane"
+  },
+  "show_notification": true
 }

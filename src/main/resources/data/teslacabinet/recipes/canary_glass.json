@@ -1,21 +1,10 @@
 {
-  "type" : "minecraft:crafting_shaped",
-  "category" : "misc",
-  "pattern" : [
-    "GGG",
-    "GUG",
-    "GGG"
-  ],
-  "key" : {
-    "G": {
-      "item" : "minecraft:glass"
-    },
-    "U" : {
-      "item" : "teslacabinet:canary_dust"
-    }
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "teslacabinet:canary_dust_block"
   },
-  "result" : {
-    "item": "teslacabinet:canary_glass",
-    "count" : 8
-  }
+  "result": "teslacabinet:canary_glass"
 }

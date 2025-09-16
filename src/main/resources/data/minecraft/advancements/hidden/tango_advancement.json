@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "teslacabinet:tango"
+    },
+    "title": {
+      "translate": "advancements.teslacabinet.tango_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.teslacabinet.tango_advancement.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "collect_12_tango": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "teslacabinet:tango",
+            "count": {
+              "min": 12
+            }
+          }
+        ]
+      }
+    }
+  },
+  "reward" : {
+    "experience" : 500
+  }
+}

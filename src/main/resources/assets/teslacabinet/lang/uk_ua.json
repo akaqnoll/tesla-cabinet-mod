@@ -3,6 +3,8 @@
 
   "item.teslacabinet.canary_dust" : "Царський пил",
       "tooltip.teslacabinet.canary_dust.lore": "TПоєднання краси з моторошною чарівністю радіоактивності.",
+  "item.teslacabinet.tango" : "Tango",
+      "tooltip.teslacabinet.tango.lore": "\"Стоп... Ты чё, сразу 3 сожрал что-ли?!\"",
 
   "block.teslacabinet.alembic_copper" : "Мідний перегінний куб",
       "tooltip.teslacabinet.alembic_copper.lore": "Мідний перегінний куб, удосконалений у Середньовіччі, став наріжним каменем ранньої дистиляції, дозволяючи алхімікам та аптекарям добувати та очищувати рідини з безпрецедентним контролем.",
@@ -25,7 +27,9 @@
   "block.teslacabinet.canary_dust_block" : "Блок царського пилу",
   "block.teslacabinet.canary_glass" : "Царське скло",
   "block.teslacabinet.canary_glass_pane" : "Царська шибка",
-  "block.teslacabinet.canary_wineglass" : "Царскьий келих",
+
+  "block.teslacabinet.canary_wineglass" : "Келих з царського скла",
+  "block.teslacabinet.canary_cup" : "Чашка з царського скла",
 
   "block.teslacabinet.acacia_shelf_indented" : "Акацієва полиця з відступом",
   "block.teslacabinet.bamboo_shelf_indented" : "Бамбукова полиця з відступом",
@@ -38,6 +42,9 @@
   "block.teslacabinet.oak_shelf_indented" : "Дубова полиця з відступом",
   "block.teslacabinet.spruce_shelf_indented" : "Смерекова полиця з відступом",
   "block.teslacabinet.warped_shelf_indented" : "Химерна полиця з відступом",
+
+  "advancements.teslacabinet.tango_advancement.title" : "12 танго!",
+  "advancements.teslacabinet.tango_advancement.desc" : "Отримайте 12 танго, як в одного легендарного Lifestealer-a.",
 
 
 

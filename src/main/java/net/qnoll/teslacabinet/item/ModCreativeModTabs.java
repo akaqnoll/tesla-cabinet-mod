@@ -5,6 +5,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.event.IModBusEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.qnoll.teslacabinet.TeslaCabinet;
@@ -41,6 +42,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.CANARY_GLASS_PANE.get());
                         //glassware
                         output.accept(ModBlocks.CANARY_WINEGLASS.get());
+                        output.accept(ModBlocks.CANARY_CUP.get());
                         //Shelves:
                         output.accept(ModBlocks.ACACIA_SHELF_INDENTED.get());
                         output.accept(ModBlocks.BAMBOO_SHELF_INDENTED.get());

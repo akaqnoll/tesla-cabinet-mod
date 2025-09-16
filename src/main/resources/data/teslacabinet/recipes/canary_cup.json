@@ -1,0 +1,19 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "BDB"
+  ],
+  "key" : {
+    "D": {
+      "item" : "teslacabinet:canary_dust"
+    },
+    "B" : {
+      "item" : "minecraft:glass_bottle"
+    }
+  },
+  "result" : {
+    "item" : "teslacabinet:canary_cup",
+    "count" : 2
+  }
+}
