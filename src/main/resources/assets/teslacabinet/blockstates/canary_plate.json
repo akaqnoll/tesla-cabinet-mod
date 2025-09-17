@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "count=1": { "model": "teslacabinet:block/glassware/plate/canary_plate_1" },
+    "count=2": { "model": "teslacabinet:block/glassware/plate/canary_plate_2" },
+    "count=3": { "model": "teslacabinet:block/glassware/plate/canary_plate_3" },
+    "count=4": { "model": "teslacabinet:block/glassware/plate/canary_plate_4" }
+  }
+}
