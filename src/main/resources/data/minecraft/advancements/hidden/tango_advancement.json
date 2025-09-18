@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "item": "teslacabinet:tango",
+            "items": [
+              "teslacabinet:tango"
+            ],
             "count": {
               "min": 12
             }
@@ -29,7 +31,7 @@
       }
     }
   },
-  "reward" : {
-    "experience" : 500
+  "rewards": {
+    "experience": 500
   }
 }

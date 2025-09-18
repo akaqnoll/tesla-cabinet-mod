@@ -68,6 +68,7 @@ public class TeslaCabinet {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CANARY_WINEGLASS.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CANARY_CUP.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CANARY_PLATE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.CANARY_GLASSWARE.get(), RenderType.cutout());
     }
 
 

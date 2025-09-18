@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teslacabinet:canary_cup"
+    },
+    {
+      "item": "teslacabinet:canary_wineglass"
+    },
+    {
+      "item" : "teslacabinet:canary_plate"
+    },
+    {
+      "item": "teslacabinet:canary_wineglass"
+    }
+  ],
+  "result": {
+    "item": "teslacabinet:canary_glassware",
+    "count" : 4
+  }
+}

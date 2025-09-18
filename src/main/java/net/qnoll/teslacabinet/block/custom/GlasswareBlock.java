@@ -19,10 +19,10 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 public class GlasswareBlock extends Block {
     public static final IntegerProperty COUNT = IntegerProperty.create("count", 1, 4);
 
-    private static final VoxelShape SHAPE_1 = Block.box(5, 0, 5, 11, 5, 11);
-    private static final VoxelShape SHAPE_2 = Block.box(3, 0, 3, 13, 5, 13);
-    private static final VoxelShape SHAPE_3 = Block.box(1, 0, 1, 15, 7, 15);
-    private static final VoxelShape SHAPE_4 = Block.box(1, 0, 1, 15, 7, 15);
+    private static final VoxelShape SHAPE_1 = Block.box(3, 0, 3, 13, 9, 13);
+    private static final VoxelShape SHAPE_2 = Block.box(1, 0, 1, 15, 9, 15);
+    private static final VoxelShape SHAPE_3 = Block.box(1, 0, 1, 15, 9, 15);
+    private static final VoxelShape SHAPE_4 = Block.box(1, 0, 1, 15, 11, 15);
 
     public GlasswareBlock(Properties pProperties) {
         super(pProperties);

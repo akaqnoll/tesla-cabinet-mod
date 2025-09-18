@@ -63,6 +63,8 @@ public class ModBlocks {
             () -> new GlasswareBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 3)));
     public static final RegistryObject<Block> CANARY_PLATE = registerBlock("canary_plate",
             () -> new GlasswareBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 3)));
+    public static final RegistryObject<Block> CANARY_GLASSWARE = registerBlock("canary_glassware",
+            () -> new GlasswareBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 3)));
     //shelves
     public static final RegistryObject<Block> ACACIA_SHELF_INDENTED = registerBlock("acacia_shelf_indented",
             () -> new ShelfIndentedBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
