@@ -27,7 +27,6 @@ public class ModCreativeModTabs {
                         //misc
                         output.accept(ModBlocks.STATIC_ELECTRICITY_DOME.get());
                         output.accept(ModBlocks.SCALES.get());
-                        output.accept(ModBlocks.WEIGHT_IRON.get());
                         //phonographs:
                         output.accept(ModBlocks.PHONOGRAPH_EDISON.get());
                         //microscopes:
@@ -61,6 +60,8 @@ public class ModCreativeModTabs {
 
                         //### ITEMS:
                         output.accept(ModItems.CANARY_DUST.get());
+                        output.accept(ModBlocks.WEIGHT_IRON.get());
+                        output.accept(ModBlocks.WEIGHT_GOLD.get());
                     })
                     .build());
 

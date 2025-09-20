@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "count=1": { "model": "teslacabinet:block/weights/gold/weight_gold_1" },
+    "count=2": { "model": "teslacabinet:block/weights/gold/weight_gold_2" },
+    "count=3": { "model": "teslacabinet:block/weights/gold/weight_gold_3" }
+  }
+}

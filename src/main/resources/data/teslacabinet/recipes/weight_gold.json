@@ -1,0 +1,20 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "N",
+    "I"
+  ],
+  "key" : {
+    "N": {
+      "tag": "forge:nuggets/gold"
+    },
+    "I": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:weight_gold",
+    "count": 3
+  }
+}

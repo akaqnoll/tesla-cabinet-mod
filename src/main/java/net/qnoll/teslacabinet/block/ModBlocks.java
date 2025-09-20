@@ -34,6 +34,8 @@ public class ModBlocks {
             () -> new ScalesBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> WEIGHT_IRON = registerBlock("weight_iron",
             () -> new WeightsBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> WEIGHT_GOLD = registerBlock("weight_gold",
+            () -> new WeightsBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion()));
 
     //phonographs
     public static final RegistryObject<Block> PHONOGRAPH_EDISON = registerBlock("phonograph_edison",
