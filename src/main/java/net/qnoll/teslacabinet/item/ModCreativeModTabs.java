@@ -34,6 +34,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.MICROSCOPE_SINGLE.get());
                         //x-meters (with arrow)
                         output.accept(ModBlocks.THERMOCOUPLE.get());
+                        output.accept(ModBlocks.ORANGE_MULTIMETER.get());
                         //decorative:
                         //very misc
                         output.accept(ModItems.CANARY_DUST_BLOCK_ITEM.get());

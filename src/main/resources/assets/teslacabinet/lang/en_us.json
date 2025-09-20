@@ -23,6 +23,8 @@
 
   "block.teslacabinet.thermocouple" : "Thermocouple Ampermeter",
       "tooltip.teslacabinet.thermocouple.lore": "Thermocouple-based ammeter, emerging in the late 19th century, measured electric current by converting heat into a readable value.",
+  "block.teslacabinet.orange_multimeter" : "Orange Multimeter",
+      "tooltip.teslacabinet.orange_multimeter.lore": "Early mass-produced multimeters often used Bakelite cases in the 1930s–50s. This plastic was cheap, durable, and heat-resistant, making it ideal for electrical tools.",
 
   "block.teslacabinet.canary_dust_block" : "Canary Dust Block",
   "block.teslacabinet.canary_glass" : "Canary Glass",

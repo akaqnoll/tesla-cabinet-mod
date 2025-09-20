@@ -46,6 +46,8 @@ public class ModBlocks {
     //x-meters (with arrow)
     public static final RegistryObject<Block> THERMOCOUPLE = registerBlock("thermocouple",
             () -> new ThermocoupleBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> ORANGE_MULTIMETER = registerBlock("orange_multimeter",
+            () -> new OrangeMultimneterBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     //decorative blocks:
     //misc

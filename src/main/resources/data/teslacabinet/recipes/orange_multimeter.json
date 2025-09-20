@@ -1,0 +1,29 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "NPN",
+    "OCO",
+    "OIO"
+  ],
+  "key" : {
+    "N": {
+      "tag": "forge:nuggets/iron"
+    },
+    "P" : {
+      "tag" : "forge:glass_panes"
+    },
+    "O" :{
+      "item": "minecraft:orange_dye"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "I" : {
+      "tag" : "forge:ingots/iron"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:orange_multimeter"
+  }
+}

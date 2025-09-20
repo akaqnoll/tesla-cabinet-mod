@@ -23,6 +23,8 @@
 
   "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
       "tooltip.teslacabinet.thermocouple.lore": "Амперметр на основі термопари, що з'явився наприкінці 19 століття, вимірював електричний струм, перетворюючи тепло в читабельне значення.",
+  "block.teslacabinet.orange_multimeter" : "Помаранчевий мультиметр",
+      "tooltip.teslacabinet.orange_multimeter.lore": "Ранні серійні мультиметри, що вироблялися в 1930-х–50-х роках, часто були зроблені з бакелиту. Це був дешевий, міцний та термостійкий пластик, що якнайкраще підходило для вироблення електровимірювачів.",
 
   "block.teslacabinet.canary_dust_block" : "Блок царського пилу",
   "block.teslacabinet.canary_glass" : "Царське скло",

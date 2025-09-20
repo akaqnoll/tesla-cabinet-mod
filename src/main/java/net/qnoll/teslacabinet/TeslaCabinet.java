@@ -60,6 +60,7 @@ public class TeslaCabinet {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MICROSCOPE_SINGLE.get(), RenderType.cutout());
         //x-meters
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.THERMOCOUPLE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORANGE_MULTIMETER.get(), RenderType.cutout());
         //deco
         //glass
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CANARY_GLASS.get(), RenderType.translucent());
