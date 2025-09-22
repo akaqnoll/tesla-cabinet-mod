@@ -31,6 +31,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.PHONOGRAPH_EDISON.get());
                         //microscopes:
                         output.accept(ModBlocks.MICROSCOPE_SINGLE.get());
+                        output.accept(ModBlocks.MICROSCOPE_BRASS.get());
                         //x-meters (with arrow)
                         output.accept(ModBlocks.THERMOCOUPLE.get());
                         output.accept(ModBlocks.ORANGE_MULTIMETER.get());
@@ -62,6 +63,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.CANARY_DUST.get());
                         output.accept(ModBlocks.WEIGHT_IRON.get());
                         output.accept(ModBlocks.WEIGHT_GOLD.get());
+                        output.accept(ModBlocks.TUNGSTEN_LAMP.get());
                     })
                     .build());
 

@@ -15,12 +15,16 @@
       "tooltip.teslacabinet.scales.lore": "Balance scales have measured goods and gold with precision, and by the 18th century, brass became a preferred material for their construction",
   "block.teslacabinet.weight_iron" : "Iron Weight",
   "block.teslacabinet.weight_gold" : "Gold Weight",
+  "block.teslacabinet.tungsten_lamp" : "Tungsten Lamp",
+      "tooltip.teslacabinet.tungsten_lamp.lore" : "The tungsten filament lamp was patented in 1904 by Hungarian inventors Just and Hanaman. It soon replaced carbon filaments, lasting longer and burning brighter.",
 
   "block.teslacabinet.phonograph_edison" : "Edison's Phonograph",
       "tooltip.teslacabinet.phonograph_edison.lore": "American inventor Thomas Edison is responsible for many famous creations, but his favorite was the phonograph.",
 
   "block.teslacabinet.microscope_single" : "Single-Lens Microscope",
       "tooltip.teslacabinet.microscope_single.lore": "From its humble beginnings in the late 16th century, the microscope transformed from a simple lens into a revolutionary window on the invisible, captivating scientists and the public alike.",
+  "block.teslacabinet.microscope_brass" : "Brass Microscope",
+      "tooltip.teslacabinet.microscope_brass.lore": "Watson & Sons first began making commercial microscopes around the 1870s. Their Edinburgh Student microscope series was one of their more widely produced brass models aimed at students and schools.",
 
   "block.teslacabinet.thermocouple" : "Thermocouple Ampermeter",
       "tooltip.teslacabinet.thermocouple.lore": "Thermocouple-based ammeter, emerging in the late 19th century, measured electric current by converting heat into a readable value.",

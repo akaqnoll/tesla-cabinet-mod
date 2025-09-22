@@ -54,10 +54,12 @@ public class TeslaCabinet {
         //misc
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.STATIC_ELECTRICITY_DOME.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SCALES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TUNGSTEN_LAMP.get(), RenderType.translucent());
         //phonographs
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PHONOGRAPH_EDISON.get(), RenderType.cutout());
         //microscopes
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MICROSCOPE_SINGLE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MICROSCOPE_BRASS.get(), RenderType.cutout());
         //x-meters
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.THERMOCOUPLE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORANGE_MULTIMETER.get(), RenderType.cutout());

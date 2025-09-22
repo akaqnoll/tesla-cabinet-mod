@@ -1,0 +1,29 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "  L",
+    " PR",
+    "NGN"
+  ],
+  "key" : {
+    "L": {
+      "tag": "forge:glass_panes"
+    },
+    "P" : {
+      "item" : "minecraft:gold_block"
+    },
+    "R" : {
+      "item" : "minecraft:blaze_rod"
+    },
+    "G" : {
+      "tag" : "forge:ingots/gold"
+    },
+    "N" : {
+      "tag" : "forge:nuggets/gold"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:microscope_brass"
+  }
+}

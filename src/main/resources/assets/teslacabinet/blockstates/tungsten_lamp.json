@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "count=1,powered=false": { "model": "teslacabinet:block/tungsten_lamp/off/tungsten_lamp_1" },
+    "count=1,powered=true":  { "model": "teslacabinet:block/tungsten_lamp/on/tungsten_lamp_1" },
+
+    "count=2,powered=false": { "model": "teslacabinet:block/tungsten_lamp/off/tungsten_lamp_2" },
+    "count=2,powered=true":  { "model": "teslacabinet:block/tungsten_lamp/on/tungsten_lamp_2" },
+
+    "count=3,powered=false": { "model": "teslacabinet:block/tungsten_lamp/off/tungsten_lamp_3" },
+    "count=3,powered=true":  { "model": "teslacabinet:block/tungsten_lamp/on/tungsten_lamp_3" },
+
+    "count=4,powered=false": { "model": "teslacabinet:block/tungsten_lamp/off/tungsten_lamp_4" },
+    "count=4,powered=true":  { "model": "teslacabinet:block/tungsten_lamp/on/tungsten_lamp_4" }
+  }
+}

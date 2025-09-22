@@ -15,12 +15,16 @@
       "tooltip.teslacabinet.scales.lore": "Ваги з точністю вимірювали товари та золото, а як настало 18 століття, було віддано перевагу латуні як матеріалу для їх виготовлення.",
   "block.teslacabinet.weight_iron" : "Залізна гиря",
   "block.teslacabinet.weight_gold" : "Золота гиря",
+  "block.teslacabinet.tungsten_lamp" : "Лампа розжарювання",
+      "tooltip.teslacabinet.tungsten_lamp.lore" : "Лампу з вольфрамовою ниткою запатентували у 1904 році угорські винахідники Юст і Ганаман. Вона швидко витіснила вугільні нитки, служила довше та світила яскравіше.",
 
   "block.teslacabinet.phonograph_edison" : "Фонограф Едісона",
       "tooltip.teslacabinet.phonograph_edison.lore": "Американський винахідник Томас Едісон відповідальний за багато відомих творінь, але його улюбленим був фонограф.",
 
   "block.teslacabinet.microscope_single" : "Монокулярний мікроскоп",
       "tooltip.teslacabinet.microscope_single.lore": "Зі скромних початків наприкінці 16 століття мікроскоп перетворився з простої лінзи на революційне вікно в невидиме, захоплюючи як вчених, так і громадськість.",
+  "block.teslacabinet.microscope_brass" : "Латунний мікроскоп",
+      "tooltip.teslacabinet.microscope_brass.lore": "Компанія Watson & Sons почала виготовляти мікроскопи у 1870-х роках. Модель Edinburgh Student з 1887 року стала однією з перших доступних латунних моделей для студентів і шкіл.",
 
   "block.teslacabinet.thermocouple" : "Амперметр з термопарою",
       "tooltip.teslacabinet.thermocouple.lore": "Амперметр на основі термопари, що з'явився наприкінці 19 століття, вимірював електричний струм, перетворюючи тепло в читабельне значення.",

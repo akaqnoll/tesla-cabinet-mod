@@ -44,6 +44,8 @@ public class ModBlocks {
     //microscopes
     public static final RegistryObject<Block> MICROSCOPE_SINGLE = registerBlock("microscope_single",
             () -> new MicroscopeSingleBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> MICROSCOPE_BRASS = registerBlock("microscope_brass",
+            () -> new MicroscopeBrassBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noOcclusion()));
 
     //x-meters (with arrow)
     public static final RegistryObject<Block> THERMOCOUPLE = registerBlock("thermocouple",
@@ -53,6 +55,8 @@ public class ModBlocks {
 
     //decorative blocks:
     //misc
+    public static final RegistryObject<Block> TUNGSTEN_LAMP = registerBlock("tungsten_lamp",
+            () -> new TungstenLampBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> CANARY_DUST_BLOCK = BLOCKS.register("canary_dust_block",
             () -> new CanaryDustBlock(BlockBehaviour.Properties.copy(Blocks.SAND).lightLevel(state -> 1)));
     //glass:
@@ -69,6 +73,7 @@ public class ModBlocks {
             () -> new GlasswareBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 3)));
     public static final RegistryObject<Block> CANARY_GLASSWARE = registerBlock("canary_glassware",
             () -> new GlasswareBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion().lightLevel(state -> 3)));
+
     //shelves
     public static final RegistryObject<Block> ACACIA_SHELF_INDENTED = registerBlock("acacia_shelf_indented",
             () -> new ShelfIndentedBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));

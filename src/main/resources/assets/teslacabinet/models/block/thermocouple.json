@@ -3,8 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "teslacabinet:block/thermocouple",
-		"particle": "minecraft:block/gray_terracotta"
+		"0": "teslacabinet:block/thermocouple"
 	},
 	"elements": [
 		{
@@ -126,9 +125,33 @@
 			"translation": [0, 3, 0],
 			"scale": [0.5, 0.5, 0.5]
 		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 105, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 105, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
 		"gui": {
-			"rotation": [35, 135, 0],
-			"translation": [0, 0.5, 0]
+			"rotation": [30, 135, 0],
+			"translation": [0, 0.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"translation": [0, 4.5, -1],
+			"scale": [1.5, 1.5, 1.5]
 		}
 	}
 }
