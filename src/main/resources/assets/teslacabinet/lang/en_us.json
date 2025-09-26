@@ -26,7 +26,7 @@
   "block.teslacabinet.microscope_brass" : "Brass Microscope",
       "tooltip.teslacabinet.microscope_brass.lore": "Watson & Sons first began making commercial microscopes around the 1870s. Their Edinburgh Student microscope series was one of their more widely produced brass models aimed at students and schools.",
 
-  "block.teslacabinet.thermocouple" : "Thermocouple Ampermeter",
+  "block.teslacabinet.thermocouple" : "Thermocouple Ammeter",
       "tooltip.teslacabinet.thermocouple.lore": "Thermocouple-based ammeter, emerging in the late 19th century, measured electric current by converting heat into a readable value.",
   "block.teslacabinet.orange_multimeter" : "Orange Multimeter",
       "tooltip.teslacabinet.orange_multimeter.lore": "Early mass-produced multimeters often used Bakelite cases in the 1930s–50s. This plastic was cheap, durable, and heat-resistant, making it ideal for electrical tools.",

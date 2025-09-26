@@ -15,5 +15,4 @@ these items myself. Decoration first, and functionality later, so this mod is ai
 
 ---
 Links:
-Curseforge
-Modrinth
+[Curseforge](https://www.curseforge.com/minecraft/mc-mods/teslas-cabinet)
