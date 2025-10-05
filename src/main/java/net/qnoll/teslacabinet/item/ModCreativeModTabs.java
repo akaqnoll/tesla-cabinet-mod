@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                         //chemistry
                         output.accept(ModBlocks.ALEMBIC_COPPER.get());
                         //misc
+                        output.accept(ModBlocks.TESLA_COIL.get());
                         output.accept(ModBlocks.STATIC_ELECTRICITY_DOME.get());
                         output.accept(ModBlocks.SCALES.get());
                         //phonographs:
