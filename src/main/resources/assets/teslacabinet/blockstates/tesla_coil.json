@@ -1,0 +1,19 @@
+{
+  "variants" : {
+    "facing=north" : {
+      "model" : "teslacabinet:block/misc/tesla_coil"
+    },
+    "facing=south" : {
+      "model" : "teslacabinet:block/misc/tesla_coil",
+      "y" : 180
+    },
+    "facing=west" : {
+      "model" : "teslacabinet:block/misc/tesla_coil",
+      "y" : 270
+    },
+    "facing=east" : {
+      "model" : "teslacabinet:block/misc/tesla_coil",
+      "y" : 90
+    }
+  }
+}

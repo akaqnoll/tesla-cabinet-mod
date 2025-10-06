@@ -37,8 +37,8 @@ public class TeslaCoilBlock extends Block {
     }
 
     private static final VoxelShape SHAPE = Shapes.or(
-            Block.box(6, 0, 6, 10, 10, 10)
-
+            Block.box(2, 0, 2, 14, 6, 14),
+            Block.box(6, 6, 6, 10, 16, 10)
     );
 
     @Override
@@ -77,6 +77,7 @@ public class TeslaCoilBlock extends Block {
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
         pBuilder.add(FACING);
+        pBuilder.add(POWERED);
     }
 
     @Override
