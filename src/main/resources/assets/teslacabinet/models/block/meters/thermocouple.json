@@ -3,7 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "teslacabinet:block/thermocouple"
+		"0": "teslacabinet:block/meters/thermocouple",
+        "particle" : "minecraft:block/smithing_table_bottom"
 	},
 	"elements": [
 		{

@@ -1,18 +1,18 @@
 {
   "variants" : {
     "facing=north" : {
-      "model" : "teslacabinet:block/alembic_copper"
+      "model" : "teslacabinet:block/chemistry/alembic_copper"
     },
     "facing=south" : {
-      "model" : "teslacabinet:block/alembic_copper",
+      "model" : "teslacabinet:block/chemistry/alembic_copper",
       "y" : 180
     },
     "facing=west" : {
-      "model" : "teslacabinet:block/alembic_copper",
+      "model" : "teslacabinet:block/chemistry/alembic_copper",
       "y" : 270
     },
     "facing=east" : {
-      "model" : "teslacabinet:block/alembic_copper",
+      "model" : "teslacabinet:block/chemistry/alembic_copper",
       "y" : 90
     }
   }

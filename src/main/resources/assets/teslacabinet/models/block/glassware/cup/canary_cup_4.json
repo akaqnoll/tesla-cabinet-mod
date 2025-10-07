@@ -2,7 +2,7 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"3": "teslacabinet:block/canary_cup",
+		"3": "teslacabinet:block/glassware/canary_cup",
       "particle": "teslacabinet:block/canary_glass"
 	},
 	"elements": [

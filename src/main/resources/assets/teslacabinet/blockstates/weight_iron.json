@@ -1,7 +1,7 @@
 {
   "variants": {
-    "count=1": { "model": "teslacabinet:block/weight_iron_1" },
-    "count=2": { "model": "teslacabinet:block/weight_iron_2" },
-    "count=3": { "model": "teslacabinet:block/weight_iron_3" }
+    "count=1": { "model": "teslacabinet:block/weights/iron/weight_iron_1" },
+    "count=2": { "model": "teslacabinet:block/weights/iron/weight_iron_2" },
+    "count=3": { "model": "teslacabinet:block/weights/iron/weight_iron_3" }
   }
 }

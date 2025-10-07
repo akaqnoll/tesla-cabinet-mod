@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "teslacabinet:block/dark_oak_shelf_indented",
-		"particle": "minecraft:block/dark_oak_planks"
+		"0": "teslacabinet:block/shelf/mangrove_shelf_indented",
+		"particle": "minecraft:block/mangrove_planks"
 	},
 	"elements": [
 		{

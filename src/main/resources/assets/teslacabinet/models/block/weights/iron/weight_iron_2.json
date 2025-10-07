@@ -2,7 +2,7 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "teslacabinet:block/weight_iron",
+		"0": "teslacabinet:block/weights/weight_iron",
 		"particle": "block/iron_block"
 	},
 	"elements": [

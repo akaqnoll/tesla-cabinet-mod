@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "teslacabinet:block/orange_multimeter",
+		"0": "teslacabinet:block/meters/orange_multimeter",
 		"particle": "minecraft:block/red_sandstone"
 	},
 	"elements": [

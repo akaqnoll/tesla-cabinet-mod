@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "teslacabinet:block/alembic_copper",
-		"particle": "block/copper_block"
+		"0": "teslacabinet:block/chemistry/alembic_copper",
+		"particle": "minecraft:block/copper_block"
 	},
 	"elements": [
 		{
