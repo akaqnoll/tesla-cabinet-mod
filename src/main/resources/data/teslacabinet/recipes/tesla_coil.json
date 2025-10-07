@@ -1,0 +1,23 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    " I ",
+    " C",
+    "BRB"
+  ],
+  "key" : {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "C" : {
+      "tag" : "forge:ingots/copper"
+    },
+    "I" :{
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:tesla_coil"
+  }
+}

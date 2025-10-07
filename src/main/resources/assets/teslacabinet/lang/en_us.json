@@ -11,6 +11,8 @@
 
   "block.teslacabinet.tesla_coil" : "Tesla Coil",
       "tooltip.teslacabinet.tesla_coil.lore" : "Invented by Nikola Tesla in 1891, the Tesla coil generated high-voltage, high-frequency electricity. It was used to study wireless power transmission and electrical discharges.",
+  "block.teslacabinet.tesla_coil_tabletop" : "Tabletop Tesla Coil",
+      "tooltip.teslacabinet.tesla_coil_tabletop.lore" : "a",
   "block.teslacabinet.static_electricity_dome" : "Static Electicity Dome",
       "tooltip.teslacabinet.static_electricity_dome.lore": "The static electricity dome, a gleaming marvel, crackled with invisible energy, evoking the audacious ingenuity and electric spectacle.",
   "block.teslacabinet.scales" : "Scales",

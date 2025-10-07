@@ -3,6 +3,8 @@
     "teslacabinet:alembic_copper",
 
     "teslacabinet:static_electricity_dome",
+    "teslacabinet:tesla_coil",
+    "teslacabinet:tesla_coil_tabletop",
     "teslacabinet:scales",
     "teslacabinet:weight_iron",
     "teslacabinet:weight_gold",

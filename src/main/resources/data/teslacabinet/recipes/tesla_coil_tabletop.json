@@ -1,0 +1,35 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "G U",
+    "BTC",
+    "PPN"
+  ],
+  "key" : {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "U" : {
+      "item" : "minecraft:lightning_rod"
+    },
+    "B" :{
+      "item": "minecraft:bucket"
+    },
+    "T" : {
+      "item" : "minecraft:redstone_torch"
+    },
+    "C" : {
+      "item" : "minecraft:copper_block"
+    },
+    "P" : {
+      "tag" : "minecraft:planks"
+    },
+    "N" : {
+      "tag":"forge:nuggets/gold"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:tesla_coil_tabletop"
+  }
+}

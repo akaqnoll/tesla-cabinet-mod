@@ -32,6 +32,7 @@ public class TeslaCabinet {
     public TeslaCabinet(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
+        //TODO: Add inventions and fix structure again!!!
         //register with eventbus
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
@@ -54,6 +55,7 @@ public class TeslaCabinet {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ALEMBIC_COPPER.get(), RenderType.cutout());
         //misc
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TESLA_COIL.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TESLA_COIL_TABLETOP.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.STATIC_ELECTRICITY_DOME.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SCALES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TUNGSTEN_LAMP.get(), RenderType.translucent());

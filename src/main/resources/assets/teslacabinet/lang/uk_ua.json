@@ -11,6 +11,8 @@
 
   "block.teslacabinet.tesla_coil" : "Котушка Тесли",
       "tooltip.teslacabinet.tesla_coil.lore" : "Винайдена Ніколою Теслою у 1891 році, котушка Тесли створювала високовольтний, високочастотний струм. Її використовували для досліджень бездротової передачі енергії та електричних розрядів.",
+  "block.teslacabinet.tesla_coil_tabletop" : "Маленька котушка Тесли",
+      "tooltip.teslacabinet.tesla_coil_tabletop.lore" : "a",
   "block.teslacabinet.static_electricity_dome" : "Купол статичного струму",
       "tooltip.teslacabinet.static_electricity_dome.lore": "Купол статичного струму, блискуче диво, потріскував невидимою енергією, викликаючи в пам'яті зухвалу винахідливість та електричне видовище.",
   "block.teslacabinet.scales" : "Ваги",

@@ -29,7 +29,9 @@ public class ModBlocks {
 
     //misc
     public static final RegistryObject<Block> TESLA_COIL = registerBlock("tesla_coil",
-            () -> new TeslaCoilBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).noOcclusion()));   //TODO | remove *nOcclusion()* later
+            () -> new TeslaCoilBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> TESLA_COIL_TABLETOP = registerBlock("tesla_coil_tabletop",
+            () -> new TeslaCoilTabletopBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> STATIC_ELECTRICITY_DOME = registerBlock("static_electricity_dome",
             () -> new StaticElectricityDomeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
     public static final RegistryObject<Block> SCALES = registerBlock("scales",
