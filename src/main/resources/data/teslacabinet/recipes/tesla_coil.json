@@ -3,7 +3,7 @@
   "category" : "misc",
   "pattern" : [
     " I ",
-    " C",
+    " C ",
     "BRB"
   ],
   "key" : {
@@ -15,6 +15,9 @@
     },
     "I" :{
       "item": "minecraft:iron_block"
+    },
+    "B" : {
+      "item" : "minecraft:iron_bars"
     }
   },
   "result" : {
