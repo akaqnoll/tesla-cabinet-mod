@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                         //misc
                         output.accept(ModBlocks.TESLA_COIL.get());
                         output.accept(ModBlocks.TESLA_COIL_TABLETOP.get());
+                        output.accept(ModBlocks.VAN_DE_GRAAFF_BLOCK.get());
                         output.accept(ModBlocks.STATIC_ELECTRICITY_DOME.get());
                         output.accept(ModBlocks.SCALES.get());
                         //phonographs:

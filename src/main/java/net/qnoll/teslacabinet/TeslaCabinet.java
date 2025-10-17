@@ -21,6 +21,7 @@ import net.qnoll.teslacabinet.item.ModItems;
 import net.qnoll.teslacabinet.sound.ModSounds;
 import org.slf4j.Logger;
 
+//MDK VERSION 1-47.4.9
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TeslaCabinet.MOD_ID)
 public class TeslaCabinet {
@@ -33,6 +34,7 @@ public class TeslaCabinet {
         IEventBus modEventBus = context.getModEventBus();
 
         //TODO: Add inventions and fix structure again!!!
+        //TODO: Add photos to CurseForge and Modrinth
         //register with eventbus
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
@@ -56,6 +58,7 @@ public class TeslaCabinet {
         //misc
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TESLA_COIL.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TESLA_COIL_TABLETOP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.VAN_DE_GRAAFF_BLOCK.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.STATIC_ELECTRICITY_DOME.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SCALES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TUNGSTEN_LAMP.get(), RenderType.translucent());
@@ -94,3 +97,24 @@ public class TeslaCabinet {
         }
     }
 }
+
+//TODO ROADMAP:
+//  todo - Van De Graaff generator;
+//todo - Big Tesla coil
+//todo - Dynamo
+//todo - wimshurst machine
+//todo - telegraph
+//todo - telephone
+//todo - fluorescent ceiling lamp
+//todo - projector lamp
+
+//project structure:
+//models/textures/ModBlocks sorting/any kind of sorting EXCEPT creative menu (TODO creative menu custom sorting, for now sorting as updates):
+//MAIN BLOCKS: inventions/update_name
+//LIGHT SOURCES (lamps, torches/etc.): light/update_name
+//CHEMICAL: chemistry/update_name
+//GLASSWARE: glassware/update_name
+//BLOCKS: .
+//PANES: panes/pane_name [panes/. for textures]
+//WEIGHTS: weights/weight_name [weights/. for textures]
+//METERS: meters/.

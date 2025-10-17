@@ -1,0 +1,26 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    " G ",
+    "CUC",
+    " B "
+  ],
+  "key" : {
+    "C": {
+      "tag" : "forge:ingots/copper"
+    },
+    "G" : {
+      "tag" : "forge:glass_panes"
+    },
+    "U" : {
+      "item" : "minecraft:cauldron"
+    },
+    "B" : {
+      "item" : "minecraft:iron_bars"
+    }
+  },
+  "result" : {
+    "item": "teslacabinet:van_de_graaff_block"
+  }
+}
