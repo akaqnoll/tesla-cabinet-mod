@@ -2,22 +2,25 @@
   "type" : "minecraft:crafting_shaped",
   "category" : "misc",
   "pattern" : [
-    " G ",
-    "CUC",
-    " B "
+    "I P",
+    "C K",
+    "SPS"
   ],
   "key" : {
-    "C": {
+    "I": {
+      "item" : "minecraft:iron_block"
+    },
+    "P" : {
+      "tag" : "minecraft:planks"
+    },
+    "C" : {
       "tag" : "forge:ingots/copper"
     },
-    "G" : {
-      "tag" : "forge:glass_panes"
+    "K" : {
+      "item" : "minecraft:dried_kelp"
     },
-    "U" : {
-      "item" : "minecraft:cauldron"
-    },
-    "B" : {
-      "item" : "minecraft:iron_bars"
+    "S" : {
+      "item" : "minecraft:stick"
     }
   },
   "result" : {

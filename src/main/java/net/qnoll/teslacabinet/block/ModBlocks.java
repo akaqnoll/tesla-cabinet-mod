@@ -63,6 +63,8 @@ public class ModBlocks {
     //misc
     public static final RegistryObject<Block> TUNGSTEN_LAMP = registerBlock("tungsten_lamp",
             () -> new TungstenLampBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> FLOODLIGHT = registerBlock("floodlight",
+            () -> new FloodlightBlock(BlockBehaviour.Properties.copy(Blocks.REDSTONE_LAMP).noOcclusion()));
     public static final RegistryObject<Block> CANARY_DUST_BLOCK = BLOCKS.register("canary_dust_block",
             () -> new CanaryDustBlock(BlockBehaviour.Properties.copy(Blocks.SAND).lightLevel(state -> 1)));
     //glass:

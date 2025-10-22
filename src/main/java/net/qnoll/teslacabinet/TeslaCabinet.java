@@ -62,6 +62,7 @@ public class TeslaCabinet {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.STATIC_ELECTRICITY_DOME.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SCALES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TUNGSTEN_LAMP.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.FLOODLIGHT.get(), RenderType.cutout());
         //phonographs
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PHONOGRAPH_EDISON.get(), RenderType.cutout());
         //microscopes
@@ -106,7 +107,7 @@ public class TeslaCabinet {
 //todo - telegraph
 //todo - telephone
 //todo - fluorescent ceiling lamp
-//todo - projector lamp
+//todo - floodlight
 
 //project structure:
 //models/textures/ModBlocks sorting/any kind of sorting EXCEPT creative menu (TODO creative menu custom sorting, for now sorting as updates):

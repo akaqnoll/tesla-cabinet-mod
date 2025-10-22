@@ -23,6 +23,8 @@
   "block.teslacabinet.weight_gold" : "Золота гиря",
   "block.teslacabinet.tungsten_lamp" : "Лампа розжарювання",
       "tooltip.teslacabinet.tungsten_lamp.lore" : "Лампу з вольфрамовою ниткою запатентували у 1904 році угорські винахідники Юст і Ганаман. Вона швидко витіснила вугільні нитки, служила довше та світила яскравіше.",
+  "block.teslacabinet.floodlight" : "Прожектор",
+      "tooltip.teslacabinet.floodlight.lore" : "lore",
 
   "block.teslacabinet.phonograph_edison" : "Фонограф Едісона",
       "tooltip.teslacabinet.phonograph_edison.lore": "Американський винахідник Томас Едісон відповідальний за багато відомих творінь, але його улюбленим був фонограф.",
